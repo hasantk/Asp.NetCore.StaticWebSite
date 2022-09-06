@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AnasayfaLayout.cshtml";
+}
+
+<ul class="l-main-content main-content">
+    @await Html.PartialAsync("~/Views/Anasayfa/Intro.cshtml")
+    @await Html.PartialAsync("~/Views/Work/Work.cshtml")
+    @await Html.PartialAsync("~/Views/About/About.cshtml")
+    @await Html.PartialAsync("~/Views/Contact/Contact.cshtml")
+    @await Html.PartialAsync("~/Views/Hire/Hire.cshtml")
+
+</ul>
+
+
